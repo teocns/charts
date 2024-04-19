@@ -1,5 +1,35 @@
 apiVersion: v1
 entries:
+  redis-cluster:
+  - apiVersion: v2
+    appVersion: 0.i6.0
+    created: "2024-04-19T04:23:55.35954-06:00"
+    description: Provides easy redis setup definitions for Kubernetes services, and
+      deployment.
+    digest: 35e80f11231529d5f616f72fbe64206e5eb184a1e3962fe61d3ac92f7a5489f3
+    home: https://github.com/teocns/redis-operator
+    icon: https://github.com/teocns/redis-operator/raw/master/static/redis-operator-logo.svg
+    keywords:
+    - operator
+    - redis
+    - opstree
+    - kubernetes
+    - openshift
+    - cluster
+    - redis-exporter
+    maintainers:
+    - name: iamabhishek-dubey
+    - name: sandy724
+    - name: shubham-cmyk
+    - name: teocns
+    name: redis-cluster
+    sources:
+    - https://github.com/teocns/redis-operator
+    - https://github.com/ot-container-kit/redis-operator
+    type: application
+    urls:
+    - https://teocns.github.io/charts/packages/redis-cluster-0.16.0.tgz
+    version: 0.16.0
   redis-operator:
   - apiVersion: v2
     appVersion: 0.16.0
@@ -27,4 +57,4 @@ entries:
     urls:
     - https://teocns.github.io/charts/packages/redis-operator-0.16.0.tgz
     version: 0.16.0
-generated: "2024-04-19T00:04:03.410233-06:00"
+generated: "2024-04-19T04:23:55.35905-06:00"
