@@ -57,4 +57,32 @@ entries:
     urls:
     - https://teocns.github.io/charts/packages/redis-operator-0.16.0.tgz
     version: 0.16.0
+  danswer:
+  - apiVersion: v2
+    type: application
+    version: 0.1.0
+    appVersion: "v0.3.42"
+    created: "2024-04-22T04:23:55.366898-06:00"
+    description: danswer
+    home: https://www.danswer.ai/
+    annotations:
+      category: Productivity
+      licenses: MIT
+      images: |
+        - name: webserver
+          image: docker.io/danswer/danswer-web-server:v0.3.42
+        - name: background
+          image: docker.io/danswer/danswer-backend:v0.3.42
+        - name: vespa
+          image: vespaengine/vespa:8.277.17
+    keywords:
+      - danswer
+    maintainers:
+      - name: teocns
+    name: danswer
+    sources:
+    - https://github.com/teocns/danswer
+    urls:
+    - https://teocns.github.io/charts/packages/danswer-0.1.0.tgz
+
 generated: "2024-04-19T04:23:55.35905-06:00"
